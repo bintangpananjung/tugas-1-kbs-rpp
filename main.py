@@ -5,13 +5,10 @@ from PyQt5 import uic
 class GUI(QWidget):
     def __init__(self):
         super().__init__()
-        uic.loadUi("gui.ui", self)
+        uic.loadUi('gui.ui', self)
 
-        self.fitButton.clicked.connect(self.fitData)
         self.predictButton.clicked.connect(self.predict)
 
-    def fitData(self):
-        ''' TODO: Preprocessing data & fit data here ''' 
     
     def predict(self):
         ''' TODO: Predict output from input arguments ''' 
@@ -19,7 +16,6 @@ class GUI(QWidget):
         so2 = self.so2_input.text()
         o3 = self.o3_input.text()
         no2 = self.no2_input.text()
-        max = self.max_input.text()
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

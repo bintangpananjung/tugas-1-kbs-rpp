@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>446</height>
+    <height>400</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,9 +16,9 @@
   <widget class="QPushButton" name="predictButton">
    <property name="geometry">
     <rect>
-     <x>430</x>
-     <y>380</y>
-     <width>331</width>
+     <x>40</x>
+     <y>330</y>
+     <width>721</width>
      <height>40</height>
     </rect>
    </property>
@@ -29,24 +29,6 @@
    </property>
    <property name="text">
     <string>Predict</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="fitButton">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>380</y>
-     <width>351</width>
-     <height>40</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>Fit Data</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
@@ -72,7 +54,7 @@ font-weight: bold;</string>
      <x>40</x>
      <y>100</y>
      <width>721</width>
-     <height>221</height>
+     <height>171</height>
     </rect>
    </property>
    <property name="font">
@@ -201,38 +183,12 @@ font-weight: bold;</string>
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="max_input">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>160</y>
-      <width>591</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>160</y>
-      <width>51</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Max</string>
-    </property>
-   </widget>
   </widget>
   <widget class="QLabel" name="result_label">
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>340</y>
+     <y>290</y>
      <width>141</width>
      <height>21</height>
     </rect>
@@ -248,7 +204,6 @@ font-size: 20px;
   </widget>
   <zorder>groupBox</zorder>
   <zorder>predictButton</zorder>
-  <zorder>fitButton</zorder>
   <zorder>label</zorder>
   <zorder>result_label</zorder>
  </widget>
