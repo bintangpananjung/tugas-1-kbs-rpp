@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>400</height>
+    <height>464</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>330</y>
+     <y>380</y>
      <width>721</width>
      <height>40</height>
     </rect>
@@ -54,7 +54,7 @@ font-weight: bold;</string>
      <x>40</x>
      <y>100</y>
      <width>721</width>
-     <height>171</height>
+     <height>221</height>
     </rect>
    </property>
    <property name="font">
@@ -183,14 +183,42 @@ font-weight: bold;</string>
      </rect>
     </property>
    </widget>
+   <widget class="QLineEdit" name="co_input">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>160</y>
+      <width>591</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>51</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>CO</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QLabel" name="result_label">
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>290</y>
-     <width>141</width>
-     <height>21</height>
+     <y>340</y>
+     <width>571</width>
+     <height>30</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -199,7 +227,7 @@ font-size: 20px;
 </string>
    </property>
    <property name="text">
-    <string> Air Quality :</string>
+    <string>Air Quality :</string>
    </property>
   </widget>
   <zorder>groupBox</zorder>
